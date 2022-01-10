@@ -1,0 +1,19 @@
+﻿<Window x:Class="Olympiarenkaat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Olympiarenkaat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="omaCanvas" Background="#FFEFEFDB" MouseLeftButtonDown="omaCanvas_MouseLeftButtonDown">
+            <Ellipse x:Name="sininen" Height="100" Canvas.Left="108" Stroke="#FF0355F9" Canvas.Top="130" Width="100" StrokeThickness="8"/>
+            <Ellipse x:Name="oranssi" Height="100" Canvas.Left="158" Stroke="#FFF9AC04" Canvas.Top="180" Width="100" StrokeThickness="8"/>
+            <Ellipse x:Name="musta" Height="100" Canvas.Left="213" Stroke="Black" Canvas.Top="130" Width="100" StrokeThickness="8"/>
+            <Ellipse x:Name="vihrea" Height="100" Canvas.Left="263" Stroke="#FF30A91F" Canvas.Top="180" Width="100" StrokeThickness="8"/>
+            <Ellipse x:Name="punainen" Height="100" Canvas.Left="318" Stroke="#FFF70808" Canvas.Top="130" Width="100" StrokeThickness="8"/>
+        </Canvas>
+
+    </Grid>
+</Window>
